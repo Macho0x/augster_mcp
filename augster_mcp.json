@@ -1,0 +1,10 @@
+{
+  "resources": [
+    {
+      "name": "rules_doc",
+      "type": "markdown",
+      "path": "./rules.md",
+      "description": "Guidelines and rules for the coding agent"
+    }
+  ]
+}
