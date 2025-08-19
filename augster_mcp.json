@@ -6,5 +6,37 @@
       "path": "./rules.md",
       "description": "Guidelines and rules for the coding agent"
     }
+  ],
+  "prompts": [
+    {
+      "name": "refactor_code",
+      "description": "Refactor code according to rules in rules.md",
+      "content": "Refactor the following code to follow best practices, optimize performance, and ensure readability:\n\n{{input}}"
+    },
+    {
+      "name": "simplify_code",
+      "description": "Simplify complex code snippets",
+      "content": "Simplify this code while preserving functionality. Follow the guidelines in rules.md:\n\n{{input}}"
+    },
+    {
+      "name": "review_code",
+      "description": "Provide a code review based on rules.md",
+      "content": "Review the following code snippet and provide feedback according to the rules in rules.md:\n\n{{input}}"
+    },
+    {
+      "name": "fix_errors",
+      "description": "Detect and fix issues in code following rules.md",
+      "content": "Identify bugs or potential issues in this code and fix them according to the guidelines in rules.md:\n\n{{input}}"
+    },
+    {
+      "name": "document_code",
+      "description": "Add comments and documentation to code following rules.md",
+      "content": "Add detailed comments and documentation to the following code snippet in line with the coding guidelines in rules.md:\n\n{{input}}"
+    },
+    {
+      "name": "suggest_optimizations",
+      "description": "Suggest algorithmic improvements based on rules.md",
+      "content": "Analyze the following code and suggest optimizations, improved algorithms, or better structures according to the rules in rules.md:\n\n{{input}}"
+    }
   ]
 }
